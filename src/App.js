@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Table from './Table';
+import Header from './Header';
 
 class App extends Component {
   render() {
@@ -23,8 +24,11 @@ class App extends Component {
     ]
 
     return (
-      <div className="container" >
-        <Table characterData={characters} />
+      <div className="container-fluid" >
+        <Header />
+        <div className="container">
+          <Table characterData={characters} />
+        </div>
       </div>
     );
   }

@@ -15,7 +15,6 @@ code {
     monospace;
 }
 
-
 /*! Primitive
  * A front end Sass boilerplate
  *
@@ -213,7 +212,6 @@ html {
   font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
-
 
 p,
 ol,
